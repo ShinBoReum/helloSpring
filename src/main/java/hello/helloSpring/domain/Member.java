@@ -5,6 +5,13 @@ public class Member {
     private Long id;
     private String name;
 
+    public Member() {
+
+    }
+    public Member(String name) {
+        this.name = name;
+    }
+
 
     public Long getId() {
         return id;
