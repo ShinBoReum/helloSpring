@@ -1,8 +1,10 @@
 package hello.helloSpring.repository;
 
 import hello.helloSpring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
+
 
 public class MemoryMemberRepository implements MemberRepository {
 
